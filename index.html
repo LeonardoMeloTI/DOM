@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap" rel="stylesheet">
+    <title>Dom -JavaScript</title>
+</head>
+<body>
+    <main>
+        <section class="form">
+            <figure>
+                <img src="imagens/riot-games.png" alt="Ícone Riot Games" class="logo">
+            </figure>
+            <div class="form">
+                <p>Fazer Login</p>
+                <fieldset>  
+                    <div class="field">
+                        <label for="user">Nome de Usuário</label>
+                        <input type="text" id="player" name="user">
+                    </div>
+                    <div class="field">
+                        <label for="pwd">Senha</label>
+                        <input type="password" id="password" name="senha">
+                    </div>
+                </fieldset>
+            </div>
+            <section class="icons">
+                <figure class="icon facebook">
+                    <a href="#">
+                        <img src="imagens/facebook.png" alt="ícone do facebook">
+                    </a>
+                </figure>
+                <figure class="icon google">
+                    <a href="#">
+                        <img src="imagens/google.png" alt="ícone do Google">
+                    </a>
+                </figure>
+                <figure class="icon apple">
+                <a href="#">
+                    <img src="imagens/apple.png" alt="ícone da Apple">
+                </a>
+                </figure>
+            </section>
+            <fieldset class="box">
+                <input type="checkbox" id="box">
+                <label for="box">Manter login</label>
+            </fieldset>
+            <button disabled></button>
+            <a class="final" href="#">Não consegue iniciar a sessão?</a>
+            <a class="final" href="#">Criar conta</a>
+        </section>
+        <div class="lol"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
